@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+  line-height: 1.5;
+  background-color: rgba(10, 181, 248, 0.24);
+  position: relative;
+}
+ header {
+  color: aliceblue;
+  background-color: black;
+ }
+
+ .page-section {
+  padding-left: 200px;
+  padding-right: 30px;
+ }
+
+#navBar {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  position: relative;
+  bottom: 25px;
+  right: 20px;
+}
+header h1{
+  position: relative;
+  top: 10px;
+}
+
+.page-wrapper {
+  position: relative;
+}
+
+#about p {
+  text-align: start;
+  position: relative;
+  top: 40px;
+  left: 5px;
+}
+
+h2 {
+  text-align: start;
+  position: relative;
+  top: 90px;
+  right: 160px;
+  font-size: 30px;
+}
+
+#info p {
+  margin: 0;
+  text-align:start;
+}
+
+#austin {
+  width: 15%;
+  height: 10%;
+  border: thick solid rgba(176, 176, 233, 0.37);
+  position: relative;
+  left: 1130px;
+  bottom: 120px;
+}
+
+.hero-banner {
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../images/02-hero-bg.jpg");
+}
+
+#banner {
+  display: flex;
+  justify-content: end;
+  height: 30vh;
+  color: rgb(255, 255, 255);
+}
+
+#work {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 25% 25%;
+  grid-template-areas: "report report"
+                       "wall cal"
+                      "puzzle buddy";
+}
+
+.GridArea {
+  /* margin: 0; */
+  height: 300px;
+  cursor: pointer;
+}
+
+.heading {
+  background-color: aqua;
+  padding: 15px;
+  font-size: 18px;
+  width: 100px;
+  height: 75px;
+  text-align: center;
+  border-bottom: 5px solid #d47c44ad;
+}
+
+#report {
+  grid-area: report;
+  background-image: url("../images/02-portfolio-4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#wall {
+  grid-area: wall;
+  background-image: url(../images/02-portfolio-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#cal {
+  grid-area: cal;
+  background-image: url("../images/02-portfolio-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#puzzle {
+  grid-area: puzzle;
+  background-image: url("../images/02-portfolio-3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#buddy {
+  grid-area: buddy;
+  background-image: url("../images/02-run-buddy.jpg");
+  background-position: center;
+  background-size: cover;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
